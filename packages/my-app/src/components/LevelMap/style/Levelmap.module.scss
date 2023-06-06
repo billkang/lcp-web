@@ -1,0 +1,15 @@
+$seleColor: rgba(
+  $color: blue,
+  $alpha: 0.15,
+);
+
+.levelmap-container {
+  position: relative;
+  height: 100vh;
+  background-color: #f6f5f8;
+  padding: 100px 20px;
+
+  &-main {
+    // width: 800px;
+  }
+}

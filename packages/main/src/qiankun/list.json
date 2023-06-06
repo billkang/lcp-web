@@ -1,0 +1,9 @@
+[
+  {
+    "name": "my-app",
+    "entry": "//localhost:10001",
+    "container": "#view-main",
+    "activeRule": "/my-app",
+    "port": "10001"
+  }
+]

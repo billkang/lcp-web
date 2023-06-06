@@ -1,0 +1,39 @@
+{
+  "name": "@lcp/my-app",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "vue-tsc --noEmit && pnpm lint:eslint && pnpm lint:stylelint"
+  },
+  "dependencies": {
+    "d3-drag": "^3.0.0",
+    "d3-ease": "^3.0.1",
+    "d3-interpolate": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "d3-scale-chromatic": "^3.0.0",
+    "d3-selection": "^3.0.0",
+    "d3-shape": "^3.2.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "fabric": "^5.3.0",
+    "html2canvas": "^1.4.1",
+    "i18next": "^22.4.15",
+    "mitt": "^3.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/d3-drag": "^3.0.2",
+    "@types/d3-ease": "^3.0.0",
+    "@types/d3-interpolate": "^3.0.1",
+    "@types/d3-scale": "^4.0.3",
+    "@types/d3-scale-chromatic": "^3.0.0",
+    "@types/d3-selection": "^3.0.5",
+    "@types/d3-shape": "^3.1.1",
+    "@types/d3-transition": "^3.0.3",
+    "@types/d3-zoom": "^3.0.2",
+    "@types/fabric": "^5.3.2",
+    "@types/i18next": "^13.0.0"
+  }
+}

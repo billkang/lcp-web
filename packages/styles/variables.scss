@@ -1,0 +1,70 @@
+$mainColor: #4B8DFF;
+
+$menuText: #000;
+$menuActiveText: #409EFF;
+$subMenuActiveText: #000; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg: #fff;
+$menuHover: #ECF5FF;
+
+$subMenuBg: #fff;
+$subMenuHover: #ECF5FF;
+
+$sideBarWidth: 200px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
+
+/************************
+  * 字体大小
+************************/
+$fontSize12: 12px;
+$fontSize14: 14px;
+$fontSize16: 16px;
+$fontSize18: 18px;
+$fontSize24: 24px;
+$fontSize36: 36px;
+$fontSize46: 46px;
+$fontSize50: 50px;
+/************************
+  * 间距
+************************/
+$miniSpace: 5px;
+$mainSpace: 20px;
+$secondarySpace: 16px;
+$thirdSpace: 10px;
+$fourthSpace: 8px;
+
+/************************
+  * form表单相关变量值
+  * 业务中只使用这些变量以取代具体的值
+************************/
+$elFormHeight: 32px;
+$elButtonHeight: 32px;
+/************************
+  * 整体布局相关变量
+  * 可以根据下面的变量对系统做全局的计算
+************************/
+// 应用头的高度
+$appHeadHeight: 60px;
+// 已打开应用tag容器的高度
+$appOpenedTagWrapperHeight: 44px;
+// 导航面包屑高度
+$appBreadCrumbHeight: 44px;
+// 主内容区域高度
+$appMainHeight: calc(100vh - #{$appHeadHeight} - #{$appOpenedTagWrapperHeight} - #{$appBreadCrumbHeight});
+
+$top_nav_height: 60px; //顶部导航栏高度
+$tab_nav_height: 50px; // tab卡片高度
+$crumb_height: 30px;
+$content_height : calc(100vh - $top_nav_height - $tab_nav_height - $crumb_height); // 内容区高度

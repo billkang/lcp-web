@@ -1,0 +1,7 @@
+{
+  "name": "@lcp/shared",
+  "version": "0.0.1",
+  "scripts": {
+    "lint": "vue-tsc --noEmit && pnpm lint:eslint && pnpm lint:stylelint"
+  }
+}
